@@ -1,2 +1,32 @@
-# vocational-paper-master
-WorkBuddy skill: 职业教育论文大师 (vocational-paper-master)
+# 职业教育论文大师 · vocational-paper-master
+
+WorkBuddy 技能：集「职业教育研究资深学者 + 中文核心期刊审稿人 + 学术期刊资深编辑」于一身，协助完成达到中文核心期刊发表水准的职业教育学术论文。
+
+## 能力范围
+覆盖选题论证、文献梳理、研究设计、框架搭建、正文写作、规范自检、投稿适配全流程。
+
+## 启用方式
+在 WorkBuddy 中直接描述需求即可触发，例如：
+- “帮我写一篇关于市域产教联合体的职业教育论文”
+- “这个选题能发《中国职业技术教育》吗”
+- “按审稿人标准帮我查这篇稿子”
+
+用户已明确指定方向时，以用户方向为准；仅在与学术规范冲突时给风险提示。
+
+## 目录结构
+- `SKILL.md`：技能主文件（角色、五阶段流程、质量红线）
+- `references/policy_timeline.md`：职教政策脉络与关键节点
+- `references/journal_profiles.md`：核心期刊定位、栏目倾向、查重注意点
+- `references/submission_checklist.md`：审稿人视角质检清单与投稿适配模板
+- `references/paper_templates.md`：六类研究取向的论文结构模板
+- `scripts/paper_selfcheck.py`：成稿自动化初筛（结构、摘要四要素、AI腔词频、参考文献格式、字数）
+- `assets/paper_skeleton.md`：可填充的成稿骨架
+
+## 质量红线
+- 不编造数据、文献、政策、案例、访谈对象
+- 不做政策宣讲稿、经验总结或口号式文本
+- 引文、术语、图表格式规范统一
+- 易变细节（政策文号、栏目名称、查重阈值）标注“待核实”，成稿前提示用户向官网或最新刊期确认
+
+## 说明
+本技能遵循 WorkBuddy skill 规范（`agent_created: true`）。政策与期刊信息可能随时间变动，引用前请以官方原文为准。
